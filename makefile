@@ -25,4 +25,4 @@ Handler.o: Handler.cpp
 	g++ -c Handler.cpp Handler.h
 
 clean:
-	rm -f *.o equations generate *.gch generated_functions.txt
+	rm -f *.o equations generate libMatrix/*.gch generated_functions.txt
